@@ -28,7 +28,14 @@ img {
   height: auto;
 }
 
+.section {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 767px;
   padding-left: 16px;
   padding-right: 16px;
@@ -186,4 +193,109 @@ img {
 
 .soc-svg {
   fill: #f4f4fd;
+}
+
+/* --------------Main--------------- */
+
+.main-section {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 72px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office@1x.jpg);
+  max-width: 320px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-align: center;
+  max-width: 216px;
+  color: #fff;
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: #4d5ae5;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  min-width: 169px;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* -----------------------Advantages--------------------- */
+
+.advantages-section {
+  padding: 96px 0;
+}
+.container {
+}
+.advantages-container {
+}
+.title-advantages {
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advant-list {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+.list-advantages {
+}
+.features {
+}
+.icons-container-advantages {
+}
+.icon {
+  display: none;
+}
+.text-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
