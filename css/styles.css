@@ -188,6 +188,11 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.soc-link:hover,
+.soc-link:focus {
+  background-color: #404bbf;
+}
+
 .soc-item {
   width: 40px;
   height: 40px;
@@ -233,6 +238,7 @@ img {
 }
 
 .button {
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   color: #fff;
@@ -246,6 +252,11 @@ img {
   min-width: 169px;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover,
+.button:focus {
+  background: #404bbf;
 }
 
 /* -----------------------Advantages--------------------- */
@@ -570,6 +581,12 @@ img {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.btn-submit:hover,
+.btn-submit:focus {
+  background: #31d0aa;
+}
+
 .send-icon {
   margin-left: 16px;
   fill: #fff;
