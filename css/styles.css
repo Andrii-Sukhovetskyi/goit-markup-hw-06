@@ -36,6 +36,7 @@ img {
   max-width: 767px;
   padding-left: 16px;
   padding-right: 16px;
+  margin: 0 auto;
 }
 
 .header-container {
@@ -409,13 +410,10 @@ img {
   color: #2e2f42;
 }
 .portf-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
-
 /* ------------------Footer-------------- */
 
 .footer {
