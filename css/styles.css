@@ -82,6 +82,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  width:18px; 
+  height: 16px;
 }
 
 .mobil-menu.is-open {
