@@ -377,6 +377,7 @@ img {
 .portfolio-list {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 48px;
 }
 .portfolio-card {
