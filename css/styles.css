@@ -87,7 +87,7 @@ img {
   padding: 0;
 }
 
-.mobil-menu.is-open {
+.is-open {
   opacity: 1;
   pointer-events: auto;
   visibility: visible;
@@ -611,7 +611,7 @@ img {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-overlay.is-open {
+.is-open {
   opacity: 1;
   pointer-events: auto;
   visibility: visible;
@@ -825,4 +825,103 @@ img {
 .send-btn:hover,
 .send-btn:focus {
   background-color: #404bbf;
+}
+
+/*--------------------Tablet-------------------*/
+
+@media (min-width: 768px) and (max-width: 1157px) {
+  .menu-btn {
+    display: none;
+  }
+
+  .container {
+    max-width: 1157px;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+  }
+
+  .logo {
+    margin-right: 120px;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: auto;
+  }
+
+  .list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .address {
+    display: flex;
+    font-style: normal;
+  }
+
+  .list .link {
+    text-decoration: none;
+    font-weight: 500;
+    color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 24px 0;
+  }
+
+  .list .link:hover,
+  .list .link:focus {
+    color: #404bbf;
+  }
+
+  .list .link:active {
+    text-decoration: underline;
+  }
+
+  .list .current {
+    position: relative;
+    color: #404bbf;
+  }
+
+  .link.current::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
+  }
+
+  .list-address {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 0;
+  }
+
+  .list-address .link {
+    color: #434455;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+    display: block;
+    padding: 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .list-address .link:hover,
+  .list-address .link:focus {
+    color: #404bbf;
+  }
 }
