@@ -99,8 +99,9 @@ img {
   visibility: hidden;
   position: fixed;
   z-index: 999;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
   width: 100%;
   height: 100%;
   background-color: #ffffff;
@@ -205,8 +206,6 @@ img {
 /* --------------Main--------------- */
 
 .main-section {
-  margin-left: auto;
-  margin-right: auto;
   padding: 72px 0;
   background-repeat: no-repeat;
   background-position: center;
@@ -217,7 +216,6 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office-mob@1x-min.jpg);
-  max-width: 320px;
 }
 
 .main-container {
@@ -246,7 +244,6 @@ img {
   letter-spacing: 0.04em;
   background: #4d5ae5;
   border-radius: 4px;
-  width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   min-width: 169px;
