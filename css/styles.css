@@ -45,7 +45,6 @@ img {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
-    min-width: 767px;
 }
 
 .nav {
@@ -207,6 +206,7 @@ img {
 /* --------------Main--------------- */
 
 .main-section {
+  margin: 0 auto;
   padding: 72px 0;
   background-repeat: no-repeat;
   background-position: center;
@@ -217,6 +217,7 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office-mob@1x-min.jpg);
+    max-width: 320px;
 }
 
 .main-container {
