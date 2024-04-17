@@ -43,7 +43,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
-    }
+}
 
 .header-container {
   padding-top: 16px;
@@ -220,7 +220,7 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office-mob@1x-min.jpg);
-    max-width: 320px;
+  max-width: 320px;
 }
 
 .main-container {
@@ -256,20 +256,10 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button:hover,
-.button:focus {
-  background: #404bbf;
-}
-
 /* -----------------------Advantages--------------------- */
 
 .advantages-section {
   padding: 96px 0;
-}
-
-.advantages-container {
-}
-.title-advantages {
 }
 
 .visually-hidden {
@@ -289,12 +279,7 @@ img {
   flex-direction: column;
   gap: 72px;
 }
-.list-advantages {
-}
-.features {
-}
-.icons-container-advantages {
-}
+
 .icon {
   display: none;
 }
@@ -321,10 +306,7 @@ img {
   padding-top: 96px;
   padding-bottom: 96px;
 }
-.container {
-}
-.team-container {
-}
+
 .title-page {
   font-size: 36px;
   font-weight: 700;
@@ -337,12 +319,10 @@ img {
 .team-list {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   flex-direction: column;
   gap: 72px;
 }
-.list-team {
-}
+
 .team-card {
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -373,21 +353,12 @@ img {
   align-items: center;
   gap: 24px;
 }
-.soc-item {
-}
-.soc-link {
-}
-.soc-svg {
-}
 
 /* ----------------Portfolio-------------*/
 
 .project-section {
   padding-top: 96px;
   padding-bottom: 96px;
-}
-
-.portf-list {
 }
 
 .portfolio-list {
@@ -452,8 +423,7 @@ img {
   padding-top: 96px;
   padding-bottom: 96px;
 }
-.footer-box {
-}
+
 .footer-container {
   display: flex;
   flex-direction: column;
@@ -526,8 +496,7 @@ img {
 .footer-soc-svg {
   fill: #f4f4fd;
 }
-.form-container {
-}
+
 .text-form {
   font-weight: 500;
   font-size: 16px;
@@ -544,8 +513,7 @@ img {
   align-items: center;
   gap: 16px;
 }
-.label-submit {
-}
+
 .form-input {
   padding: 8px 16px;
   border: 1px solid #fff;
@@ -735,7 +703,7 @@ img {
   border-radius: 4px;
   resize: none;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: transparent;
@@ -757,9 +725,6 @@ img {
   position: relative;
 }
 
-.span-check-text {
-}
-
 .input-checkbox {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -767,7 +732,7 @@ img {
 
 .checkbox-text {
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   border-radius: 2px;
@@ -879,11 +844,6 @@ img {
     padding: 24px 0;
   }
 
-  .list .link:hover,
-  .list .link:focus {
-    color: #404bbf;
-  }
-
   .list .link:active {
     text-decoration: underline;
   }
@@ -915,15 +875,166 @@ img {
   .list-address .link {
     color: #434455;
     font-size: 12px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     display: block;
     padding: 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
+  /*---------------------------- Main -----------------------*/
+
+  .main-section {
+    padding: 112px 0;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/images-tablet/people-office-tab@1x-min.jpg);
+    min-width: 768px;
+  }
+
+  .main-title {
+    font-size: 56px;
+    max-width: 496px;
+  }
+
+  .main-container {
+    gap: 36px;
+  }
+
+  /*----------------Advantages-------------------*/
+
+  .advant-list {
+    flex-direction: row;
+    gap: 72px 24px;
+    flex-wrap: wrap;
+  }
+
+  .features {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .adv-text-title {
+    text-align: start;
+  }
+
+  /*----------------------- Team------------------------- */
+
+  .team-list {
+    flex-direction: row;
+    gap: 64px 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* -------------------Portfolio------------------------ */
+
+  .portfolio-list {
+    flex-direction: row;
+    gap: 72px 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* ---------------Footer------------------------------ */
+
+  .footer-container {
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .footer-text {
+    max-width: 264px;
+  }
+
+  .footer-box {
+    display: flex;
+    gap: 72px 24px;
+    flex-wrap: wrap;
+    margin-left: 92px;
+  }
+
+  .footer-text {
+    margin: auto;
+  }
+
+  .footer-soc {
+    margin-bottom: 0;
+  }
+
+  .forma {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .text-form {
+    text-align: start;
+  }
+
+  .form-container {
+    margin-left: 0;
+  }
+
+  /*------------ Modal ----------------*/
+
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section {
+    padding: 120px 0px 120px 0px;
+  }
+
+  .logo {
+    margin-right: 76px;
+  }
+
+  .list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .list .link:hover,
+  .list .link:focus {
+    color: #404bbf;
+  }
+
+  .list-address {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+  }
+
+  .list-address .link {
+    font-size: 16px;
+  }
+
   .list-address .link:hover,
   .list-address .link:focus {
     color: #404bbf;
+  }
+
+  /* --------------------Main--------------------*/
+
+  .main-container {
+    gap: 48px;
+  }
+
+  .button:hover,
+  .button:focus {
+    background: #404bbf;
   }
 }
