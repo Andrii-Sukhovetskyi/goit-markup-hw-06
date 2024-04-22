@@ -1037,4 +1037,73 @@ img {
   .button:focus {
     background: #404bbf;
   }
+
+  /*----------------Advantages-------------------*/
+
+  .icon {
+    display: flex;
+  }
+
+  .icons-container-advantages {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .features {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .adv-text-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .adv-text {
+    font-weight: 400;
+  }
+
+  /*------------------Portfolio------------------*/
+
+  .portfolio-card {
+    width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: none;
+  }
+
+  .portfolio-card:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+      0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  }
+
+  /*---------------Footer---------------*/
+
+  .footer-box {
+    gap: 0;
+    margin: auto;
+    flex-wrap: nowrap;
+  }
+
+  .footer-container {
+    margin-right: 120px;
+  }
+
+  .footer-soc-text {
+    text-align: start;
+  }
+
+  .form-input {
+    opacity: 1;
+  }
+
+  .footer-soc {
+    margin-right: 80px;
+  }
 }
